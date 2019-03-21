@@ -76,7 +76,7 @@ h1 {
     h1 {
       font-size: 67px;
       line-height: 67px; } }
-  @media only screen and (max-width: 1200px) {
+  @media only screen and (max-width: 1280px) {
     h1 {
       font-size: 45px;
       line-height: 45px; } }
@@ -95,7 +95,7 @@ P, input {
     P, input {
       font-size: 16px;
       line-height: 24px; } }
-  @media only screen and (max-width: 1200px) {
+  @media only screen and (max-width: 1280px) {
     P, input {
       font-size: 10px;
       line-height: 15px; } }
@@ -115,7 +115,7 @@ a {
   color: #2e2d2c;
   text-transform: none;
   text-decoration: none; }
-  @media only screen and (max-width: 1200px) {
+  @media only screen and (max-width: 1280px) {
     a {
       font-size: 10.7px;
       line-height: 16px; } }
@@ -131,3 +131,193 @@ body, html {
   width: 100%;
   height: 100%;
   min-height: 100%; }
+
+.clicked {
+  height: 100%; }
+
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 103;
+  top: 0;
+  /******************************************** SIGNUP DROPDOWN *********************************************/
+  /************************************************ HEADER INNER ***********************************************/
+  /************************************************ NAVIGATION MENU ***********************************************/ }
+  @media only screen and (max-width: 650px) {
+    header {
+      background: #fff; } }
+  header #mc_embed_signup {
+    width: 100%;
+    background: #fff;
+    display: none;
+    position: relative;
+    overflow: hidden; }
+    header #mc_embed_signup .signup-wrapper {
+      padding: 4vw 0 2vw 0; }
+      header #mc_embed_signup .signup-wrapper p {
+        margin: 0 0 1vw 0; }
+      header #mc_embed_signup .signup-wrapper #subscriber-message {
+        display: block;
+        text-align: center; }
+      header #mc_embed_signup .signup-wrapper form {
+        display: flex;
+        justify-content: center;
+        padding: 0 0 2vw 0; }
+        header #mc_embed_signup .signup-wrapper form input[type="text"],
+        header #mc_embed_signup .signup-wrapper form input[type="password"],
+        header #mc_embed_signup .signup-wrapper form input[type="email"] {
+          width: 20vw;
+          height: 3vw;
+          max-width: 360px;
+          max-height: 50px;
+          padding: 0 0 0 1vw;
+          margin: 0 0.2vw 0 0.2vw;
+          vertical-align: middle;
+          overflow: hidden;
+          background: #212121;
+          border: none;
+          color: #fff;
+          text-align: left; }
+        header #mc_embed_signup .signup-wrapper form input[type="submit"] {
+          background: #28fa8f;
+          width: 10vw;
+          height: 3vw;
+          max-width: 170px;
+          max-height: 50px;
+          color: #2e2d2c;
+          border: none;
+          margin: 0 0.2vw 0 0.2vw; }
+          header #mc_embed_signup .signup-wrapper form input[type="submit"]:hover {
+            background: #2e2d2c;
+            color: #fff;
+            cursor: pointer; }
+      header #mc_embed_signup .signup-wrapper .up-arrow {
+        margin: 0 auto;
+        position: relative;
+        overflow: hidden;
+        z-index: 101;
+        display: block;
+        cursor: pointer;
+        width: 32px;
+        float: none; }
+        header #mc_embed_signup .signup-wrapper .up-arrow #up-arrow-svg {
+          width: 32px;
+          height: 12px; }
+  header div#header-inner {
+    width: 100%;
+    height: 80px;
+    position: relative;
+    /************************************************ DISPLAY NAV MENU ***********************************************/ }
+    header div#header-inner div#eat-with-your-eyes-logo {
+      width: 190px;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      overflow: hidden; }
+      header div#header-inner div#eat-with-your-eyes-logo .svg {
+        fill: #fff;
+        width: 100%; }
+        @media only screen and (max-width: 650px) {
+          header div#header-inner div#eat-with-your-eyes-logo .svg {
+            fill: #2e2d2c; } }
+    header div#header-inner a.nav-button {
+      position: absolute;
+      top: 50%;
+      right: 40px;
+      transform: translate(0, -50%);
+      height: 40px;
+      width: 26.667px;
+      display: block;
+      overflow: hidden;
+      z-index: 105; }
+      @media only screen and (max-width: 650px) {
+        header div#header-inner a.nav-button {
+          right: 20px; } }
+      header div#header-inner a.nav-button .nav-button-animation {
+        position: absolute;
+        height: 20px;
+        width: 560px;
+        transform: translate(0, -12px);
+        left: 0px;
+        top: 50%;
+        fill: #28fa8f; }
+        header div#header-inner a.nav-button .nav-button-animation.contrast {
+          fill: #2e2d2c; }
+  header nav {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: translate(0, -80px);
+    z-index: 104;
+    display: none;
+    overflow: hidden; }
+    header nav ul#main-menu {
+      position: absolute;
+      transform: translate(-50%, -50%);
+      top: 50%;
+      left: 50%;
+      /*** MENU ITEM ***/ }
+      header nav ul#main-menu li.menu-item {
+        margin: 2vw 0 2vw 0;
+        /*** CURRENT PAGE INDICATOR ***/ }
+        @media only screen and (min-width: 1800px) {
+          header nav ul#main-menu li.menu-item {
+            margin: 36px 0 36px 0; } }
+        @media only screen and (max-width: 1280px) {
+          header nav ul#main-menu li.menu-item {
+            margin: 24px 0 24px 0; } }
+        @media only screen and (max-width: 980px) {
+          header nav ul#main-menu li.menu-item.signup-btn a {
+            width: 100%;
+            display: block;
+            overflow: hidden;
+            margin: 0 auto; } }
+        @media only screen and (max-width: 980px) {
+          header nav ul#main-menu li.menu-item.signup-btn a p br {
+            position: absolute; } }
+        header nav ul#main-menu li.menu-item a h1 {
+          color: #fff; }
+        header nav ul#main-menu li.menu-item a p {
+          margin: 1.5vw 0 2vw 0;
+          color: #fff; }
+        header nav ul#main-menu li.menu-item a:hover > h1, header nav ul#main-menu li.menu-item a:hover > p {
+          color: #28fa8f; }
+        header nav ul#main-menu li.menu-item.current-menu-item a h1 {
+          color: #28fa8f; }
+    header nav ul.social-media-menu {
+      display: none;
+      position: absolute;
+      bottom: 4%;
+      left: 50%;
+      transform: translate(-50%, 0); }
+      header nav ul.social-media-menu li.social-item {
+        display: inline-block;
+        margin: 0 0.5vw 0 0.5vw; }
+        header nav ul.social-media-menu li.social-item a P {
+          text-decoration: underline;
+          color: #fff; }
+
+.overlay {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.75);
+  display: none;
+  z-index: 102; }
+
+.showreel {
+  position: relative;
+  overflow: hidden;
+  width: 100%; }
+  @media only screen and (max-width: 650px) {
+    .showreel {
+      margin: 80px 0 0 0; } }
+  .showreel .showreel-video {
+    width: 100%;
+    height: auto;
+    display: block; }
+  .showreel .down-arrow .svg {
+    fill: #28fa8f; }
