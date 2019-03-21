@@ -41,3 +41,28 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0; }
+
+@font-face {
+  font-family: 'EWYE Bebas';
+  src: url("../fonts/ewye_bebas-webfont.eot");
+  src: url("../fonts/ewye_bebas-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/ewye_bebas-webfont.woff2") format("woff2"), url("../fonts/ewye_bebas-webfont.woff") format("woff"), url("../fonts/ewye_bebas-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Source Code Pro Regular';
+  src: url("../fonts/SourceCodePro-Regular.eot");
+  src: url("../fonts/SourceCodePro-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/SourceCodePro-Regular.woff2") format("woff2"), url("../fonts/SourceCodePro-Regular.woff") format("woff"), url("../fonts/SourceCodePro-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Source Code Pro Medium';
+  src: url("../fonts/SourceCodePro-Medium.eot");
+  src: url("../fonts/SourceCodePro-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/SourceCodePro-Medium.woff2") format("woff2"), url("../fonts/SourceCodePro-Medium.woff") format("woff"), url("../fonts/SourceCodePro-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal; }
+@font-face {
+  font-family: 'Source Code Pro Bold';
+  src: url("../fonts/SourceCodePro-Bold.eot");
+  src: url("../fonts/SourceCodePro-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/SourceCodePro-Bold.woff2") format("woff2"), url("../fonts/SourceCodePro-Bold.woff") format("woff"), url("../fonts/SourceCodePro-Bold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal; }

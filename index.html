@@ -3,26 +3,91 @@
 
 <head>
 	
-	<!-- Meta data & initial screen size -->
+	<!-- META DATA & INITIAL SCREEN SIZE -->
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=1"/>
 	
+	<!-- WEBSITE TITLE -->
 	<title>Eat With Your Eyes | Food &amp; Drink Branding</title>
 	
-	<!-- Temp CSS Document -->
-	<link href="assets/css/main.scss">
+	<!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+	<!-------------------------------------------------------------------------------------- CSS FILES ------------------------------------------------------------------------------------->
+	<!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+	<link href="assets/css/main.css">
 	
-	<!-- Temp SCSS Document - THIS LINK WILL BE DELETED WHEN LIVE -->
+	<!-- *** TEMP SCSS FILE - THIS LINK WILL BE DELETED WHEN LIVE *** -->
 	<link href="assets/css/main.scss">
 
-	<!-- JQuery - for all other js see footer.php -->
+	<!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+	<!------------------------------------------------------------ JQUERY LINK (ALL OTHER JS FILES ARE AT THE BOTTOM OF THE BODY) ---------------------------------------------------------->
+	<!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 	
 </head>
 
 <body>
+	<!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+	<!--------------------------------------------------------------------------------------- HEADER --------------------------------------------------------------------------------------->
+	<!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+	<header>
+		<!--------------------------------------------------- HIDDEN SIGN-UP FORM  - DROPS DOWN WHEN SIGN-UP IS CLICKED IN THE MAIN MENU --------------------------------------------------->
+		<div id="mc_embed_signup">
+			<div class="signup-wrapper">
+				<p id="subscriber-message"><b>Sign up now for to receive our FREE Weekly Nibble</b> [industry trends, innovations and stories]. Plus recieve latest work and insight reports.</p>
+				<!-- FORM CONTENT -->
+				<form action="http://eatwithyoureyes.us4.list-manage2.com/subscribe/post?u=d2b3a4068396bf48703a4a288&amp;id=4406b92565" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+					<input type="text" value="" name="FNAME" class="" id="mce-FNAME" placeholder="First name">
+					<input type="text" value="" name="LNAME" class="" id="mce-LNAME" placeholder="Last name">
+					<input type="text" value="" name="MMERGE3" class="" id="mce-MMERGE3" placeholder="Company">
+					<input type="email" value="" name="EMAIL" class="required" id="mce-EMAIL" placeholder="Email">
+					<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+					<div id="mce-responses" class="clear">
+						<p class="response" id="mce-error-response" style="display:none"></p>
+						<p class="response" id="mce-success-response" style="display:none"></p>
+					</div>
+				</form>
+
+				<a class="up-arrow" w3-include-html="assets/include/up-arrow.html"></a>
+			</div>
+		</div>
+		
+		<!------------------------------------------------------------------ CONTAINS ALL THE VISIBLE ELEMENTS OF THE HEADER ------------------------------------------------------------------->
+		<div id="header-inner">
+			<!-- EAT WITH YOUR EYES LOGO-->				
+			<div id="eat-with-your-eyes-logo" w3-include-html="assets/include/eat-with-your-eyes-logo.html"></div>
+			
+			<!-- SHOW NAVIGATION MENU BUTTON -->
+			<a class="nav-button">
+				<div class="nav-button-animation" w3-include-html="assets/include/menu-animation.html"></div>
+			</a>
+		</div>
+		
+		<!------------------------------------------------------------------------------------- NAVIGATION ------------------------------------------------------------------------------------->
+		<nav>
+			<!-- MAIN NAVIGATION MENU -->
+			<ul id="main-menu"> 
+				<li class="menu-item current-menu-item"><a><h1>Work</h1></a></li>
+				<li class="menu-item"><a><h1>Thinking</h1></a></li>
+				<li class="menu-item"><a><h1>Sketchbook</h1></a></li>
+				<li class="menu-item"><a><h1>Journal</h1></a></li>
+				<li class="menu-item"><a><h1>Contact</h1></a></li>
+				<li class="menu-item signup-btn"><a><h1>Sign-up</h1><p>Subscribe FREE to our Weekly Nibble <br> [industry trends, innovations and stories]. <br> Plus recieve latest work and insight reports.</p></a></li>
+			</ul>
+
+			<!-- SOCIAL MEDIA BUTTONS -->
+			<ul class="social-media-menu">
+				<li class="social-item"><a><p>Instagram</p></a></li>
+				<li class="social-item"><a><p>linkedIn</p></a></li>
+			</ul>
+		</nav>
+	</header>
 	
-	<!-- Main Javascript file -->
+	
+	
+	
+	<!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+	<!---------------------------------------------------------------------------------- JAVASCRIPT FILES ---------------------------------------------------------------------------------->
+	<!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 	<script src="assets/js/main.js"></script>
 </body>
 	
