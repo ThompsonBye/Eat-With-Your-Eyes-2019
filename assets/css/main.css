@@ -66,3 +66,68 @@ table {
   src: url("../fonts/SourceCodePro-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/SourceCodePro-Bold.woff2") format("woff2"), url("../fonts/SourceCodePro-Bold.woff") format("woff"), url("../fonts/SourceCodePro-Bold.ttf") format("truetype");
   font-weight: 600;
   font-style: normal; }
+h1 {
+  font-family: 'EWYE Bebas';
+  font-size: 3.7vw;
+  line-height: 3.7vw;
+  text-align: center;
+  color: #2e2d2c; }
+  @media only screen and (max-width: 1800px) {
+    h1 {
+      font-size: 67px;
+      line-height: 67px; } }
+  @media only screen and (max-width: 1200px) {
+    h1 {
+      font-size: 45px;
+      line-height: 45px; } }
+  @media only screen and (max-width: 650px) {
+    h1 {
+      font-size: 30px;
+      line-height: 30px; } }
+
+P, input {
+  font-family: 'Source Code Pro Medium', Sans-serif;
+  font-size: 0.89vw;
+  line-height: 1.33vw;
+  text-align: center;
+  color: #2e2d2c; }
+  @media only screen and (min-width: 1800px) {
+    P, input {
+      font-size: 16px;
+      line-height: 24px; } }
+  @media only screen and (max-width: 1200px) {
+    P, input {
+      font-size: 10px;
+      line-height: 15px; } }
+
+b {
+  font-family: 'Source Code Pro Bold', Sans-serif; }
+
+small {
+  font-size: 0.8vw;
+  line-height: 1.2vw; }
+
+a {
+  cursor: pointer;
+  font-family: 'Source Code Pro', Sans-serif;
+  font-size: 1vw;
+  line-height: 1.4vw;
+  color: #2e2d2c;
+  text-transform: none;
+  text-decoration: none; }
+  @media only screen and (max-width: 1200px) {
+    a {
+      font-size: 10.7px;
+      line-height: 16px; } }
+
+body {
+  -webkit-font-smoothing: antialiased;
+  /* Used to force Firefox */
+  -moz-osx-font-smoothing: grayscale;
+  /* to display fonts properly */ }
+
+body, html {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 100%; }
