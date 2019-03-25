@@ -149,8 +149,8 @@ h1 {
 	}
 	
 	@media only screen and (max-width: $mobile) {
-		font-size: 30px;
-		line-height: 30px;
+		font-size: 35px;
+		line-height: 35px;
 	}
 }
 
@@ -234,9 +234,7 @@ header {
 	z-index: 103;
 	top: 0;
 	
-	@media only screen and (max-width: $mobile) {
-		background: #fff;
-	}
+	
 
 	/******************************************** SIGNUP DROPDOWN *********************************************/
 	#mc_embed_signup {
@@ -324,6 +322,7 @@ header {
 		
 		@media only screen and (max-width: $mobile) {
 			height: $headerHeightMobile;
+			background: #fff;
 		}
 
 		div#eat-with-your-eyes-logo {
@@ -494,7 +493,7 @@ header {
 .down-arrow {
 	width: 31px;
 	position: absolute;
-	bottom: 2vw;
+	bottom: 6vw;
 	left: 50%;
 	transform: translate(-50%, 0);
 	z-index: 101;
@@ -529,6 +528,49 @@ header {
 	.down-arrow {
 		.svg {
 			fill: $ewyeGreen;
+		}
+	}
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////    STATEMENT   /////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+#statement {
+	width: 100%;
+	display: block;
+	position: relative;
+	background: $ewyeGreen;
+	
+	.statement-container {
+		margin: 0 auto;
+		padding: 6vw 0 6vw 0;
+		
+		@media only screen and (max-width: $mobile) {
+			padding: 14vw 0 14vw 0;
+		}
+		
+		p {
+			margin: 2vw 0 0 0;
+			
+			@media only screen and (max-width: $mobile) {
+				margin: 4vw 0 0 0;
+			}
+			
+			small {
+				font-size: 80%;
+				text-decoration: underline;
+				margin: 1vw 0 0 0;
+				display: block;
+			}
+		}
+	}
+	
+	.down-arrow {
+		position: relative;
+		margin: 2vw 0 0 0;
+		.svg {
+			fill: $ewyeGrey;
 		}
 	}
 }
