@@ -140,4 +140,32 @@ $(document).ready(function(){
 			$('#mc_embed_signup').addClass('open').slideDown();
 		}
 	});
+	
+	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	/////////////////////////////////////////////////    LOAD MORE WORK   ///////////////////////////////////////////////
+	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	
+	/* Add more button */ 
+	$(function(){ /* Add more button */ 
+    	$("#main ul li").slice(0, 6).show(); // select the first 18
+    	
+    	$("#load").click(function(e){ // click event for load more
+       		e.preventDefault();
+       		
+       		$("#main ul li:hidden").slice(0, 6).fadeIn(1500); // select next 2 hidden divs and show them
+       		
+       		//$("img").trigger("unveil");
+        	
+        	if($("#main ul li:hidden").length === 0){ // check if any hidden divs still exist
+            	$("#load").hide();
+        	}
+       	});
+	});
+	
+	$(window).load(function(){
+		if($("#main ul li:hidden").length === 0){ // check if any hidden divs still exist
+            //alert("No more divs"); // alert if there are none left
+           $("#load").hide();
+        }
+	});
 });
